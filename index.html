@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Light / Dark</h1>
+        <div class="toggle">
+            <input type="checkbox" name="theme" id="switch">
+            <label for="switch">Toggle</label>
+        </div>
+
+        <p>
+            Pequeno programinha teste para implementar o light e dark mode de uma pagina, feito com javascript puro, 
+            manipulando as variaveis do CSS contendo as cores da pagina. <br/>
+            Quando clicado, o toggle switch aciona um evento que chama uma funcao que puxa as variaveis do CSS,
+            as armazena num vetor e troca por um vetor com outras cores pre-definidas, as reinsere no CSS,
+            quando clicado de novo, o vetor que foi armazenado com as primeiras cores e' inserido de volta.
+        </p>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
